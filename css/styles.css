@@ -2,7 +2,7 @@
   background-color: lightgrey;
   border: 5px solid black;
   border-radius: 15px;
-  height: 150px;
+  height: 200px;
 }
 
 .term {
@@ -13,6 +13,6 @@
   display: none;
 }
 
-.visible .definition {
-  display: block;
+.selected {
+  color: red;
 }

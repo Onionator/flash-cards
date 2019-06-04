@@ -3,5 +3,6 @@ $(document).ready(function() {
   $(".col-md-3").click(function() {
     $(this).children("p").toggle();
     $(this).children("h1").toggle();
+    //$(this).children("p").addClass("selected");
   });
 });
