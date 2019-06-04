@@ -1,0 +1,18 @@
+.well {
+  background-color: lightgrey;
+  border: 5px solid black;
+  border-radius: 15px;
+  height: 150px;
+}
+
+.term {
+  text-align: center;
+}
+
+.definition {
+  display: none;
+}
+
+.visible .definition {
+  display: block;
+}
